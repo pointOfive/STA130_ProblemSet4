@@ -13,7 +13,10 @@ knitr::opts_chunk$set(eval=TRUE, include=TRUE, echo=TRUE, message=TRUE, warning=
 
 # Instructions
 
-Complete the exercises in this .Rmd file and submit your .Rmd and .pdf output through [Quercus](https://q.utoronto.ca/courses/253019/assignments/782402) on Oct 6 by 5:00 p.m. ET. 
+Complete the exercises of **Part 2** in this .Rmd file and submit your .Rmd and .pdf output through [Quercus](https://q.utoronto.ca/courses/253019/assignments/782402) on Oct 6 by 5:00 p.m. ET. 
+
+Complete the exercises of **Part 3** in this .Rmd file and submit your .Rmd and .pdf output through [Quercus](https://q.utoronto.ca/courses/253019/assignments/782402) on Oct 13 by 5:00 p.m. ET. 
+
 
 ```{r, message=FALSE}
 library(tidyverse)
@@ -119,6 +122,8 @@ ggplot(data=NULL, aes(x=c("Twitterer","Non Twitterer"), y=c(103,400-103))) +
 
 # Part 2: One Sample Hypothesis Testing 
 
+**DUE THURSDAY Oct 6 by 5 p.m. ET**
+
 ## Question 2: Scottish Medicine
 
 A Scottish woman noticed that her husband's scent changed.  Six years later he was diagnosed with Parkinson's disease. His wife joined a Parkinson's charity and noticed that odour from other people.  She mentioned this to researchers who decided to test her abilities.  They recruited 6 people with Parkinson's disease and 6 people without the disease.  Each of the recruits wore a t-shirt for a day, and the woman was asked to smell the t-shirts (in random order) and determine which shirts were worn by someone with Parkinson's disease.  She was correct for 12 of the 12 t-shirts!  You can read about this [here](http://www.bbc.com/news/uk-scotland-34583642). 
@@ -223,6 +228,8 @@ A criminal court considers two opposing claims about a defendant: they are eithe
 *REPLACE THIS TEXT WITH YOUR ANSWER*
 
 # Part 3: Two Sample Hypothesis Testing Required Questions 
+
+**DUE THURSDAY Oct 13 by 5 p.m. ET**
 
 ## Question 5: Social Media and Anxiety
 
