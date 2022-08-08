@@ -368,7 +368,7 @@ set.seed(523) # Replace the seed with the 1st, 3rd, and 5th digits or your stude
 
 *REPLACE THIS TEXT WITH YOUR ANSWER*
 
-# Part 4: OPTIONAL but Recommended (if not now, at least next week...)
+# Part 4: OPTIONAL but STRONGLY Recommended for Practice
 
 You may complete these questions for practice if you wish.
 ***You are not required to complete these questions as they ARE NOT included as part of your mark.***
