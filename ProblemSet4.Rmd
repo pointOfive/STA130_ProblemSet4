@@ -205,6 +205,8 @@ ggplot(sim, aes(p_correct)) +
 
 ## Question 4: OPTIONAL primer for potential TUT discussion
 
+- You may complete these questions for practice if you wish. ***You are not required to complete these questions as they ARE NOT included as part of your mark.***
+
 A criminal court considers two opposing claims about a defendant: they are either innocent or guilty. In the Canadian legal system, the role of the prosecutor is to present convincing evidence that the defendant is not innocent.  Lawyers for the defendant attempt to argue that the evidence is *not convincing enough* to rule out that the defendant could be innocent.  If there is not enough evidence to convict the defendant and they are set free, the judge generally does not deliver a verdict of "innocent", but rather of "not guilty".  
 
 ### (a) If we look at the criminal trial example in the hypothesis test framework, which would be the null hypothesis and which the alternative?
@@ -370,6 +372,8 @@ set.seed(523) # Replace the seed with the 1st, 3rd, and 5th digits or your stude
 
 ## Question 7: OPTIONAL practice specifying NULL Hypotheses
 
+- You may complete these questions for practice if you wish. ***You are not required to complete these questions as they ARE NOT included as part of your mark.***
+
 We've covered two kinds of hypothesis tests. 
 
 - In the first version we hypothesize a proportion in a population (the parameter $p$) and test that value using the proportion observed in the sample (the sample average $\bar x$, also sometimes notated as $\hat p$). These *ONE sample hypotheses tests* have a NULL hypothesis of the form $H_0: p = p_0$ (and of course the ALTERNATIVE hypothesis then takes the form $H_1: H_0 \text{ is } \texttt{FALSE}$).  Since this one-sample framework works for any average (not just proportions), another form of this test that is often encountered is $H_0: \mu = \mu_0$ where $\mu$ is the mean of the population (corresponding to the sample average $\bar x$). 
@@ -411,5 +415,3 @@ Complete this [One Sample Hypothesis Testing Practice Quiz](https://q.utoronto.c
 Complete this [Two Sample Hypothesis Testing Practice Quiz](https://q.utoronto.ca/courses/239327/quizzes/271083) using this [Rmd file](https://jupyter.utoronto.ca/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2FpointOfive%2FSTA130-TwoSampleHypothesisTest-PracticeQuiz_gratitude&urlpath=rstudio%2F&branch=main)
 
 
-You may complete these questions for practice if you wish.
-***You are not required to complete these questions as they ARE NOT included as part of your mark.***
