@@ -203,7 +203,7 @@ ggplot(sim, aes(p_correct)) +
 
 *REPLACE THIS TEXT WITH YOUR ANSWER*
 
-## Question 4: Hypothesis Testing Errors
+## Question 4: OPTIONAL primer for potential TUT discussion
 
 A criminal court considers two opposing claims about a defendant: they are either innocent or guilty. In the Canadian legal system, the role of the prosecutor is to present convincing evidence that the defendant is not innocent.  Lawyers for the defendant attempt to argue that the evidence is *not convincing enough* to rule out that the defendant could be innocent.  If there is not enough evidence to convict the defendant and they are set free, the judge generally does not deliver a verdict of "innocent", but rather of "not guilty".  
 
@@ -368,25 +368,7 @@ set.seed(523) # Replace the seed with the 1st, 3rd, and 5th digits or your stude
 
 *REPLACE THIS TEXT WITH YOUR ANSWER*
 
-# Part 4: OPTIONAL but STRONGLY Recommended for Practice
-
-You may complete these questions for practice if you wish.
-***You are not required to complete these questions as they ARE NOT included as part of your mark.***
-
-## Question 7
-
-Complete this [One Sample Hypothesis Testing Practice Quiz](https://q.utoronto.ca/courses/239327/quizzes/271075) using this [Rmd file](https://jupyter.utoronto.ca/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2FpointOfive%2FSTA130-OneSampleHypothesisTest-PracticeQuiz_ABCD&urlpath=rstudio%2F&branch=main)
-
-## Question 8
-
-Complete this [Two Sample Hypothesis Testing Practice Quiz](https://q.utoronto.ca/courses/239327/quizzes/271083) using this [Rmd file](https://jupyter.utoronto.ca/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2FpointOfive%2FSTA130-TwoSampleHypothesisTest-PracticeQuiz_gratitude&urlpath=rstudio%2F&branch=main)
-
-# Part 5: OPTIONAL for Additional Practice
-
-You may complete these questions for practice if you wish.
-***You are not required to complete these questions as they ARE NOT included as part of your mark.***
-
-## Question 9
+## Question 7: OPTIONAL practice specifying NULL Hypotheses
 
 We've covered two kinds of hypothesis tests. 
 
@@ -413,3 +395,21 @@ Be sure to carefully define any parameters you refer to.
 ### (d) Based on results from a survey of graduates from the University of Toronto, we would like to compare the median salaries of graduates from the statistics and graduates of mathematics programs.
 
 *REPLACE THIS TEXT WITH YOUR ANSWER*
+
+
+# Part 4: OPTIONAL but STRONGLY Recommended for Practice
+
+You may complete these questions for practice if you wish.
+***You are not required to complete these questions as they ARE NOT included as part of your mark.***
+
+## Question 8
+
+Complete this [One Sample Hypothesis Testing Practice Quiz](https://q.utoronto.ca/courses/239327/quizzes/271075) using this [Rmd file](https://jupyter.utoronto.ca/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2FpointOfive%2FSTA130-OneSampleHypothesisTest-PracticeQuiz_ABCD&urlpath=rstudio%2F&branch=main)
+
+## Question 9
+
+Complete this [Two Sample Hypothesis Testing Practice Quiz](https://q.utoronto.ca/courses/239327/quizzes/271083) using this [Rmd file](https://jupyter.utoronto.ca/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2FpointOfive%2FSTA130-TwoSampleHypothesisTest-PracticeQuiz_gratitude&urlpath=rstudio%2F&branch=main)
+
+
+You may complete these questions for practice if you wish.
+***You are not required to complete these questions as they ARE NOT included as part of your mark.***
