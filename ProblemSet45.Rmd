@@ -13,9 +13,9 @@ knitr::opts_chunk$set(eval=TRUE, include=TRUE, echo=TRUE, message=TRUE, warning=
 
 # Instructions
 
-Complete the exercises of **Part 2** in this .Rmd file and submit your .Rmd and .pdf output through [Quercus](https://q.utoronto.ca/courses/253019/assignments/782402) on Oct 6 by 5:00 p.m. ET. 
+Complete the exercises of **Part 2** in this .Rmd file and submit your .Rmd and .pdf output through [Quercus](https://q.utoronto.ca/courses/277998/assignments/910605) on Oct 6 by 5:00 p.m. ET. 
 
-Complete the exercises of **Part 3** in this .Rmd file and submit your .Rmd and .pdf output through [Quercus](https://q.utoronto.ca/courses/253019/assignments/782402) on Oct 13 by 5:00 p.m. ET. 
+Complete the exercises of **Part 3** in this .Rmd file and submit your .Rmd and .pdf output through [Quercus](https://q.utoronto.ca/courses/277998/assignments/910606) on Oct 13 by 5:00 p.m. ET. 
 
 
 ```{r, message=FALSE}
@@ -58,11 +58,13 @@ sample(c("Head","Tail"), size=10, prob=c(0.5, 0.5), replace=TRUE)
 sample(c("Head","Tail"), size=10, prob=c(0.1, 0.9), replace=TRUE)
 ```
 
-### (c) Use `geom_bar()` to visualize the number of Twitter users versus non-Twitter users with a bar plot.  How does this simulated proportion compare to the general population rate of 23% and to the 103 of 400 sampled DoSS students? 
+### (c) Use `geom_bar()` to visualize the number of Twitter users versus non-Twitter users from your simulated sample with a bar plot.  How does this simulated proportion compare to the general population rate of 23% and to the 103 of 400 sampled DoSS students? 
 
 ```{r}
 # Code your answer here
 ```
+
+*REPLACE THIS TEXT WITH YOUR ANSWER*
 
 #### Hints
 
@@ -114,7 +116,9 @@ ggplot(data=NULL, aes(x=c("Twitterer","Non Twitterer"), y=c(103,400-103))) +
 
 (C) The probability of obtaining a number of students who use Twitter in a sample of 400 students at least as extreme as the result in this study.
 
-(D) The probability of obtaining a number of students who use Twitter in a sample of 400 students at least as extreme as the result in this study, if the prevelance of Twitter usage among all DoSS students matches the general population.
+(D) The probability of obtaining a number of students who use Twitter in a sample of 400 students at least as extreme as the result in this study, if the prevalence of Twitter usage among all DoSS students matches the general population.
+
+*REPLACE THIS TEXT WITH YOUR ANSWER*
 
 ### (i) What happens to the p-value if you change the seed value in `set.seed()`?  What happens to the p-value if you change the size of the simulation?
 
@@ -130,13 +134,17 @@ A Scottish woman noticed that her husband's scent changed.  Six years later he w
 
 ### (a) Without conducting a simulation, describe what you would expect the sampling distribution of the proportion of correct guesses about the 12 shirts to look like if someone was just guessing. 
 
-### (b) Carry out a simulation and a hypothesis test of the woman being a lucky guesser as opposed to having some ability to identify Parkinson's disease by smell given that she correctly classified 12 of 12 t-shirts.
+*REPLACE THIS TEXT WITH YOUR ANSWER*
+
+### (b) Carry out a simulation and a hypothesis test of the woman being a lucky guesser as opposed to having some ability to identify Parkinson's disease by smell given that she correctly classified 12 of 12 t-shirts. Make a conclusion based on your work.
 
 ```{r}
 set.seed(0) # Set the random seed to the last two digits of your student number
 N <- 1000 # Change this to 10000 if a finer simulation resolution is required 
 # Code your answers here
 ```
+
+*REPLACE THIS TEXT WITH YOUR ANSWER*
 
 ### (c) Actually, initially the woman correctly identified all 6 people who had been diagnosed with Parkinson's but incorrectly identified one of the others as having Parkinson's.  It was only eight months later that the final individual was diagnosed with the disease.  What is the p-value when only 11 of 12 were known to be correct? 
 
