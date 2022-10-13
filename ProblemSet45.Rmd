@@ -318,7 +318,7 @@ for(i in 1:repetitions){
 
 sim <- tibble(median_diff = simulated_values)
 
-sim %>% ggplot(aes(x=median_diff)) + geom_histogram(binwidth=1, color="black", fill="gray")
+sim %>% ggplot(aes(x=median_diff)) + geom_histogram(bins=30, color="black", fill="gray")
 
 num_more_extreme <- sim %>% filter(abs(median_diff) >= abs(test_stat)) %>% summarise(n())
 p_value <- as.numeric(num_more_extreme / repetitions)
@@ -416,10 +416,10 @@ You may complete these questions for practice if you wish.
 
 ## Question 8
 
-Complete this [One Sample Hypothesis Testing Practice Quiz](https://q.utoronto.ca/courses/239327/quizzes/271075) using this [Rmd file](https://jupyter.utoronto.ca/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2FpointOfive%2FSTA130-OneSampleHypothesisTest-PracticeQuiz_ABCD&urlpath=rstudio%2F&branch=main)
+Complete this [One Sample Hypothesis Testing Practice Quiz](https://q.utoronto.ca/courses/277998/quizzes/279243) using this [Rmd file](https://jupyter.utoronto.ca/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2FpointOfive%2FSTA130_PracticeQuiz_OneSampleHypothesisTest_ABCD&urlpath=rstudio%2F&branch=main)
 
 ## Question 9
 
-Complete this [Two Sample Hypothesis Testing Practice Quiz](https://q.utoronto.ca/courses/239327/quizzes/271083) using this [Rmd file](https://jupyter.utoronto.ca/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2FpointOfive%2FSTA130-TwoSampleHypothesisTest-PracticeQuiz_gratitude&urlpath=rstudio%2F&branch=main)
+Complete this [Two Sample Hypothesis Testing Practice Quiz](https://q.utoronto.ca/courses/277998/quizzes/279244) using this [Rmd file](https://jupyter.utoronto.ca/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2FpointOfive%2FSTA130_PracticeQuiz_TwoSampleHypothesisTest_gratitude&urlpath=rstudio%2F&branch=main)
 
 
